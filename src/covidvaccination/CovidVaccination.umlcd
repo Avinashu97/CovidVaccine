@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmi:id="_JpSEYC1KEeykZNmBBnI0hA">
+  <eAnnotations xmi:id="_NLJzMC1LEeykZNmBBnI0hA" source="http://ns.yatta.de/umllab">
+    <contents xsi:type="ecore:EAnnotation" xmi:id="_NLKaQC1LEeykZNmBBnI0hA" source="visual-filters/hideNonPublicElements">
+      <details xmi:id="_NLKaQS1LEeykZNmBBnI0hA" key="isActive" value="false"/>
+    </contents>
+  </eAnnotations>
+  <modelElement href="CovidVaccination.uml#_J2s1UC1KEeykZNmBBnI0hA"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_La_SkC1KEeykZNmBBnI0hA" name="CovidVaccination">
+    <modelElement href="CovidVaccination.uml#_J2v4oC1KEeykZNmBBnI0hA"/>
+    <visualProperties xmi:id="_La_5oC1KEeykZNmBBnI0hA" position="10.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_La_5oS1KEeykZNmBBnI0hA" label="+"/>
+    <operations xmi:id="_La_5oi1KEeykZNmBBnI0hA" name="main" staticOperation="true">
+      <modelElement href="CovidVaccination.uml#_J2yU4C1KEeykZNmBBnI0hA"/>
+      <visibility xmi:id="_La_5oy1KEeykZNmBBnI0hA" label="+"/>
+      <cardinality xmi:id="_La_5pC1KEeykZNmBBnI0hA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_La_5pS1KEeykZNmBBnI0hA" name="args">
+        <modelElement href="CovidVaccination.uml#_J2y78C1KEeykZNmBBnI0hA"/>
+        <cardinality xmi:id="_La_5pi1KEeykZNmBBnI0hA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_La_5py1KEeykZNmBBnI0hA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_9QQG0C14EeykZNmBBnI0hA" name="Vaccine">
+    <modelElement href="CovidVaccination.uml#_9QPfwC14EeykZNmBBnI0hA"/>
+    <visualProperties xmi:id="_9QQG0S14EeykZNmBBnI0hA" position="371.0,15.0" size="277.0,111.0"/>
+    <visibility xmi:id="_9QQG0i14EeykZNmBBnI0hA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Dz1IkC15EeykZNmBBnI0hA" name="">
+    <modelElement href="CovidVaccination.uml#_Dz0hgC15EeykZNmBBnI0hA"/>
+    <visualProperties xmi:id="_Dz1IkS15EeykZNmBBnI0hA" position="95.0,173.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Dz1Iki15EeykZNmBBnI0hA" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
